@@ -1,0 +1,150 @@
+/***** BASE STYLES *****/
+@font-face{
+    font-family: 'Wisdom Script';
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #2b2b2b;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 12px;
+}
+
+.top,
+.bottom {
+  margin: 0 auto;
+  clear: both;
+}
+
+.half-width {
+    width: 50%;
+    height: 105px;
+    margin: 0 auto;
+    float: left;
+}
+
+img {
+    border-top: 3px solid #77a466;
+    border-right: 0px;
+    border-bottom: 3px solid #77a466;
+    border-left: 0px;
+}
+
+header h1 span {
+    color: #80aa70
+}
+
+nav {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px;
+}
+
+nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #9bbc8f;
+  }
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.main-title h3 {
+    text-align: left;
+    color: #77a466;
+    padding: 5px 0;
+}
+
+#one,
+#two,
+#three {
+    width: 399px;
+	  height: auto;
+	  float: left;
+	  border-top: 1px solid #eee;
+}
+
+#one h3 {
+    color: black;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+#two {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+#two h3,
+#three h3 {
+    color: black;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.menu-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    line-height: 18px;
+    color: #77a466;
+    list-style-type: none;
+}
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+footer h4 {
+  font-size: 14px;
+}
+
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
